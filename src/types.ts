@@ -1,0 +1,26 @@
+export type Screen =
+  | 'landing'
+  | 'login'
+  | 'role-selection'
+  | 'registration'
+  | 'compliance'
+  | 'seller-dashboard'
+  | 'create-listing'
+  | 'buyer-dashboard'
+  | 'buyer-requirement'
+  | 'marketplace'
+  | 'supplier-details'
+  | 'product-detail'
+  | 'pricing-breakdown'
+  | 'quote-order'
+  | 'contract'
+  | 'payment'
+  | 'logistics'
+  | 'quality-verification'
+  | 'digital-passport'
+  | 'dispute-resolution'
+  | 'impact-mrv'
+  | 'admin-dashboard'
+  | 'anomaly-monitoring';
+
+export type Role = 'seller' | 'buyer' | 'admin' | null;
